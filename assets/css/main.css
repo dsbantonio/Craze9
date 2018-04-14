@@ -25,7 +25,20 @@
 	body {
 		line-height: 1;
 	}
+	
+	.logo {
+		text-indent: 140px;
+		font-size: 120px;
+		text-shadow: black;
+		background: url("logo.jpg");
+		width: 150px;
+		height: 150px;
+	}
 
+	.text {
+		font-size: 30px;
+	}
+	
 	ol, ul {
 		list-style: none;
 	}
@@ -1818,10 +1831,6 @@
 	input[type="button"],
 	button,
 	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2049,10 +2058,6 @@
 	input[type="email"],
 	select,
 	textarea {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
 		border-radius: 0;
 		border: none;
 		border: solid 1px;
@@ -2116,11 +2121,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"] {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+	input[type="radio"] { 
 		display: block;
 		float: left;
 		margin-right: -2em;
