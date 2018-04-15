@@ -61,6 +61,13 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	body {
+		margin: 0px;
+		padding: 0px;
+		font-family: inherit;
+
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
